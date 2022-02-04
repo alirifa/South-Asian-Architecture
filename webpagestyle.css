@@ -1,0 +1,117 @@
+body{
+background-color:#FAF9F9;
+color: #555B6E;
+font-family: Garamond;
+margin: 0;
+}
+
+header{
+text-align: center;
+margin: 20px;
+}
+
+header p{
+font-size: 1.15em;
+}
+
+nav{
+position: sticky;
+top: 0;
+background-color: #89B0AE;
+}
+
+nav a{
+font-size: 1.1em;
+float: left;
+display: block;
+background-color: #89B0AE;
+color: #FAF9F9;
+text-align: center;
+width: 20%;
+padding: 7px 0px;
+text-decoration: none;
+}
+
+nav a:hover, a.active{
+background-color: #BEE3DB;
+color: #555B6E;
+}
+
+main{
+font-size: 1.1em;
+padding: 50px 10%;
+}
+
+footer{
+padding: 15px 10% 80px;
+text-align: left;
+background-color: #555B6E;
+color: #FAF9F9;
+}
+
+.refrences{
+margin: 50px 15%;
+}
+
+#pic{
+float:right;
+margin: 0 0 30px 30px;
+width:30%;
+}
+
+table, th, td{
+border: 1px solid;
+border-collapse: collapse;
+border-color: #FAF9F9;
+text-align: center;
+padding: 7px 10px;
+}
+
+table{
+width:40%;
+}
+
+iframe{
+margin: 30px 15px;
+float: right;
+} 
+
+.rowpics{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.rowpics img{
+height: 175px;
+}
+
+.link{
+float: left;
+background-color: #72788c;
+color: #FAF9F9;
+text-align: center;
+width: 33.33%;
+padding: 5px 0;
+text-decoration: none;
+}
+
+.link:hover{
+background-color: #42485c;
+color: #FAF9F9;
+}
+
+.deliverable{
+float: left;
+background-color: #72788c;
+color: #FAF9F9;
+padding: 0 15px;
+margin: 0 0 30px;
+text-decoration: none;
+}
+
+.deliverable:hover{
+background-color: #42485c;
+color: #FAF9F9;
+}
+
